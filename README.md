@@ -210,7 +210,9 @@ dashboard/dashboard.pbix
 
 ```bash
 git clone https://github.com/seu-usuario/movida-stock-analytics.git
-cd movida-stock-analytics
+cd movida-stock-analytica
+
+```
 2. Criar ambiente virtual
 python -m venv .myvenv
 Ativar ambiente
@@ -263,12 +265,6 @@ Borge Pambo
 Data Engineer
 
 
-✅ Agora:
-- terminal aparece **somente onde deve**
-- README fica profissional no GitHub
-- renderização perfeita
-
-Se quiser, posso agora te mostrar o **README nível portfólio (⭐ senior data engineer)** que recruiters gostam muito.
 
 
 
