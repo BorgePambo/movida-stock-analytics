@@ -1,0 +1,11 @@
+# Web Scraping
+playwright
+# Manipulação de dados
+pandas
+# Banco de dados
+sqlalchemy
+psycopg2-binary
+# Utilidades
+python-dotenv
+duckdb
+
