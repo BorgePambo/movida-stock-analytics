@@ -211,65 +211,65 @@ dashboard/dashboard.pbix
 ```bash
 git clone https://github.com/seu-usuario/movida-stock-analytics.git
 cd movida-stock-analytics
-
-
 2. Criar ambiente virtual
 python -m venv .myvenv
-
-
-Ativar:
-
-Windows:
+Ativar ambiente
+Windows
 
 .myvenv\Scripts\activate
-
-
-Linux / WSL:
+Linux / WSL
 
 source .myvenv/bin/activate
-
 3. Instalar dependências
 pip install -r requirements.txt
-
-
-Instalar navegador:
-
 playwright install
-
 4. Executar Pipeline
 python main.py
-
-
 Fluxo automático:
 
 Extract → Transform → Load
 
 5. Abrir Dashboard
 Abrir Power BI Desktop
-Abrir:
-dashboard/dashboard.pbix
 
+Abrir o arquivo:
+
+dashboard/dashboard.pbix
 Atualizar dados.
+
 🛠️ Troubleshooting
 Problema	Solução
 Navegador não inicia	executar playwright install
 Sem dados Bronze	verificar conexão ou mudança no site
 Silver vazio	limpar Bronze e executar novamente
 Erro DuckDB	apagar arquivo .duckdb e reexecutar
-
-
-Conceitos de Engenharia Aplicados
+📚 Conceitos de Engenharia Aplicados
 Data Lake Architecture
-Medallion Architecture
-ETL Pipeline
-Analytics Engineering
-Data Modeling
-Data Quality
-ITIL 4 Documentation Principles
-👨‍💻 Autor
 
+Medallion Architecture
+
+ETL Pipeline
+
+Analytics Engineering
+
+Data Modeling
+
+Data Quality
+
+ITIL 4 Documentation Principles
+
+👨‍💻 Autor
 Borge Pambo
 Data Engineer
+
+
+✅ Agora:
+- terminal aparece **somente onde deve**
+- README fica profissional no GitHub
+- renderização perfeita
+
+Se quiser, posso agora te mostrar o **README nível portfólio (⭐ senior data engineer)** que recruiters gostam muito.
+
 
 
 
