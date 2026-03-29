@@ -212,7 +212,6 @@ dashboard/dashboard.pbix
 git clone https://github.com/seu-usuario/movida-stock-analytics.git
 cd movida-stock-analytica
 
-```
 2. Criar ambiente virtual
 python -m venv .myvenv
 Ativar ambiente
@@ -258,7 +257,8 @@ Data Modeling
 
 Data Quality
 
-ITIL 4 Documentation Principles
+
+```
 
 👨‍💻 Autor
 Borge Pambo
