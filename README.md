@@ -5,6 +5,7 @@ Pipeline completo de Engenharia de Dados responsável pela coleta, processamento
 
 O projeto implementa um fluxo **end-to-end**:
 
+<img width="1536" height="1024" alt="iamgeme925" src="https://github.com/user-attachments/assets/02f121e1-bb2f-4264-958a-243e76b45e4f" />
 
 
 
