@@ -201,3 +201,51 @@ data/gold/cars_gold.parquet
 Arquivo:
 dashboard/dashboard.pbix
 
+
+---
+
+# ▶️ Como Executar o Projeto
+
+## 1. Clonar repositório
+
+```bash
+git clone https://github.com/seu-usuario/movida-stock-analytics.git
+cd movida-stock-analytics
+
+
+2. Criar ambiente virtual
+python -m venv .myvenv
+
+
+Ativar:
+
+Windows:
+
+.myvenv\Scripts\activate
+
+
+Linux / WSL:
+
+source .myvenv/bin/activate
+
+3. Instalar dependências
+pip install -r requirements.txt
+
+
+Instalar navegador:
+
+playwright install
+
+4. Executar Pipeline
+python main.py
+
+
+Fluxo automático:
+
+Extract → Transform → Load
+
+
+
+
+
+
