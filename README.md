@@ -244,6 +244,32 @@ Fluxo automático:
 
 Extract → Transform → Load
 
+5. Abrir Dashboard
+Abrir Power BI Desktop
+Abrir:
+dashboard/dashboard.pbix
+
+Atualizar dados.
+🛠️ Troubleshooting
+Problema	Solução
+Navegador não inicia	executar playwright install
+Sem dados Bronze	verificar conexão ou mudança no site
+Silver vazio	limpar Bronze e executar novamente
+Erro DuckDB	apagar arquivo .duckdb e reexecutar
+
+
+Conceitos de Engenharia Aplicados
+Data Lake Architecture
+Medallion Architecture
+ETL Pipeline
+Analytics Engineering
+Data Modeling
+Data Quality
+ITIL 4 Documentation Principles
+👨‍💻 Autor
+
+Borge Pambo
+Data Engineer
 
 
 
