@@ -183,6 +183,7 @@ data/gold/cars_gold.parquet
 # 📊 Business Intelligence (Power BI)
 
 ## Dashboard: **Movida Stock Analytics Dashboard**
+<img width="1467" height="808" alt="dash_img" src="https://github.com/user-attachments/assets/209cfa3c-6e86-4721-a74e-bbd33c176fba" />
 
 ### KPIs Principais
 
