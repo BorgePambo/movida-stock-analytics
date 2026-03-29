@@ -135,8 +135,69 @@ Campos coletados:
 - Estado
 - Informações do anúncio
 
+data/bronze/*.json
+
+
+---
+
+## 2️⃣ Transform — Data Processing
+
+Processos aplicados:
+
+- Limpeza de strings monetárias
+- Conversão para tipos numéricos
+- Padronização de colunas
+- Deduplicação
+- Normalização dos dados
+
 Saída:
 
+data/silver/*.csv
 
-## Arquitetura Geral
+
+---
+
+## 3️⃣ Load — Analytics Layer
+
+Executado com DuckDB:
+
+Cria tabelas:
+
+- `cars_raw`
+- `cars_gold`
+
+KPIs calculados:
+
+- Total de veículos
+- Preço médio
+- KM médio
+- Total em promoção
+
+Exportação:
+data/gold/cars_analytics.duckdb
+data/gold/cars_gold.parquet
+
+
+---
+
+# 📊 Business Intelligence (Power BI)
+
+## Dashboard: **Movida Stock Analytics Dashboard**
+
+### KPIs Principais
+
+- 🚗 Total de estoque
+- 💰 Preço médio
+- 🛣️ KM médio geral
+- 🔥 % veículos em promoção
+
+### Visualizações
+
+- Estoque por modelo
+- Estoque por marca
+- Distribuição geográfica por estado
+- Tabela analítica detalhada
+
+Arquivo:
+dashboard/dashboard.pbix
 
